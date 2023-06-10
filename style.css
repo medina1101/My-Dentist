@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background-color: silver;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_l{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.nav_l>a{
+    margin: 5px;
+    text-decoration: none;
+    color: gray;
+}
+
+.nav_l>a:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+
+.nav_r{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.location{
+    margin: 5px;
+}
+
+.loc_name{
+    margin: 5px;
+}
+
+.calendar{
+    margin: 5px;
+}
+
+.time{
+    margin: 5px;
+}
+
+.call{
+    margin: 5px;
+}
+
+.number{
+    margin: 5px;
+}
+
+#btn1{
+    width: 105px;
+    height: 30px;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(71, 161, 186);
+}
+
+#btn1:hover{
+    background-color: rgb(179, 179, 226);
+    cursor: pointer;
+}
+
+
+.section1{
+    background-image: url(./img/dentist-banner.png);
+    background-size: cover;
+    object-fit: cover;
+    width: 100vw;
+    height: 70vh;
+}
+
+.sec1_left>p{
+    padding-left: 35px;
+    padding-top: 15px;
+    color: #4E4E4E;
+}
+
+.sec1_left>h1{
+    width: 250px;
+    padding-left: 35px;
+    padding-top: 5px;
+    color: #1A3444;
+}
+
+.sec1_left>#span{
+    width: 320px;
+    padding-left: 35px;
+    padding-top: 10px;
+    color: #6F6F6F;
+}
+
+.sec1_left>button{
+    width: 150px;
+    height: 35px;
+    margin-left: 35px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(71, 161, 186);
+}
+
+.sec1_left>button:hover{
+    background-color: rgb(151, 151, 237);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav_r{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
